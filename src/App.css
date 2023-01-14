@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.canvas {
+  width: 500px;
+  height: 300px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz-buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.answer {
+  font-size: 48px;
+  mix-blend-mode: difference;
+}
